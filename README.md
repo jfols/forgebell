@@ -64,9 +64,11 @@ JASMINE_BROWSER=PhantomJS DEBUG=1 MOCHA_DEBUG=1 JASMINE_DEBUG=1 VELOCITY_DEBUG=1
 - [sanjo:jasmine](https://atmospherejs.com/sanjo/jasmine) - Jasmine test
 - [aldeed:autoform](https://atmospherejs.com/aldeed/autoform)
 - [aldeed:collection2](https://atmospherejs.com/aldeed/collection2)
-- [babrahams:constellation](https://atmospherejs.com/babrahams/constellation) --|
-- [constellation:console](https://atmospherejs.com/constellation/console)       |--- awesome _in-browser_ development tools
-- [constellation:schema](https://atmospherejs.com/constellation/schema)       --|
+
+_awesome *in-browser* development tools_
+- [babrahams:constellation](https://atmospherejs.com/babrahams/constellation)
+- [constellation:console](https://atmospherejs.com/constellation/console)
+- [constellation:schema](https://atmospherejs.com/constellation/schema)
 
 # Deploy your app
 
