@@ -1,8 +1,13 @@
+# Forgebell
+
+Collaborative project for Meteor-devshop Columbus to provide a discussion starter and practical working example app.
+
+The aim of forgebell is to provide a simple way for those arriving at the forge _(where Meteor-devshop Columbus is hosted)_ to prompt another attendee to come open the door for them.
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [Forgebell](#forgebell)
 - [Quick Start](#quick-start)
 - [Noteworthy included packages](#noteworthy-included-packages)
 - [Deploy your app](#deploy-your-app)
@@ -11,12 +16,6 @@
   - [Manual Deploy (experts only)](#manual-deploy-experts-only)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# Forgebell
-
-Collaborative project for Meteor-devshop Columbus to provide a discussion starter and practical working example app.
-
-The aim of forgebell is to provide a simple way for those arriving at the forge _(where Meteor-devshop Columbus is hosted)_ to prompt another attendee to come open the door for them.
 
 # Quick Start
 
@@ -52,24 +51,19 @@ JASMINE_BROWSER=PhantomJS DEBUG=1 MOCHA_DEBUG=1 JASMINE_DEBUG=1 VELOCITY_DEBUG=1
 # Noteworthy included packages
 
 - [coffeescript](https://atmospherejs.com/meteor/coffeescript) - Yum
-
 - [erasaur:meteor-lodash](https://atmospherejs.com/erasaur/meteor-lodash) - Delicious functional helpers
 - [kadira:blaze-layout](https://atmospherejs.com/kadira/blaze-layout) - Blaze rendering for Flow Router
 - [kadira:flow-router](https://atmospherejs.com/kadira/flow-router) - Routing at its finest
 - [accounts-password](https://atmospherejs.com/meteor/accounts-password) - Basic accounts system with password support
 - [arillo:flow-router-helpers](https://atmospherejs.com/arillo/flow-router-helpers) - Flow Router helpers
 - [useraccounts:flow-routing](https://atmospherejs.com/useraccounts/flow-routing) - Flow router tools for user accounts
-
 - [materialize:materialize](https://atmospherejs.com/materialize/materialize) - Get Materialized
 - [modweb:materialize-connection-status](https://atmospherejs.com/modweb/materialize-connection-status)
 - [useraccounts:materilize](https://atmospherejs.com/useraccounts/materialize) - Beautiful and simple user account templates
 - [zimme:active-route](https://atmospherejs.com/zimme/active-route) - Simple template helpers to determine active routes
-
 - [sanjo:jasmine](https://atmospherejs.com/sanjo/jasmine) - Jasmine test
-
 - [aldeed:autoform](https://atmospherejs.com/aldeed/autoform)
 - [aldeed:collection2](https://atmospherejs.com/aldeed/collection2)
-
 - [babrahams:constellation](https://atmospherejs.com/babrahams/constellation) --|
 - [constellation:console](https://atmospherejs.com/constellation/console)       |--- awesome _in-browser_ development tools
 - [constellation:schema](https://atmospherejs.com/constellation/schema)       --|
