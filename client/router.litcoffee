@@ -32,4 +32,4 @@ Creates a basic flow route, a common pattern.
       if not (Meteor.user()? or Meteor.loggingIn())
         redirect 'signIn'
 
-    FlowRouter.triggers.enter [requireLoggedIn], except: _.union ['home'], userAccountsRoutes
+    FlowRouter.triggers.enter [requireLoggedIn], except: _.union ['home', 'assessment', 'profile', 'chat_selection', 'chat'], userAccountsRoutes
