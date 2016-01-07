@@ -17,3 +17,7 @@ modweb:materialize-connection-status
 useraccounts:materialize
 useraccounts:flow-routing
 standard-minifiers
+
+babrahams:constellation
+constellation:console
+constellation:schema
