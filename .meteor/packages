@@ -17,5 +17,10 @@ modweb:materialize-connection-status
 useraccounts:materialize
 useraccounts:flow-routing
 standard-minifiers
+
+babrahams:constellation
+constellation:console
+constellation:schema
+
 aldeed:collection2
 aldeed:autoform

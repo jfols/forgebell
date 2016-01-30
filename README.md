@@ -1,19 +1,15 @@
-#Liftoff
+# Forgebell
 
-Opinionated boilerplate to get your [Meteor](https://meteor.com) project off the ground written in literal coffeescript using Meteor v1.1.0.3.
+Collaborative project for Meteor-devshop Columbus to provide a discussion starter and practical working example app.
 
-Liftoff is designed to be a basic starting point for any Meteor project.
-
-Check the demo! [liftoff.meteor.com](http://liftoff.meteor.com)
+The aim of forgebell is to provide a simple way for those arriving at the forge _(where Meteor-devshop Columbus is hosted)_ to prompt another attendee to come open the door for them.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
 - [Quick Start](#quick-start)
-  - [Test logs](#test-logs)
-- [Included Packages](#included-packages)
-- [Recommended Packages](#recommended-packages)
+- [Noteworthy included packages](#noteworthy-included-packages)
 - [Deploy your app](#deploy-your-app)
   - [Meteor Deploy (easy)](#meteor-deploy-easy)
   - [Semi-Manual Deploy (recommended)](#semi-manual-deploy-recommended)
@@ -26,13 +22,13 @@ Check the demo! [liftoff.meteor.com](http://liftoff.meteor.com)
 Clone repo
 
 ```sh
-git clone git@github.com:jfols/liftoff.git YOURPROJECTNAME
+git clone git@github.com:jfols/forgebell.git <your-project-name>
 ```
 
 Get up in that project directory
 
 ```sh
-cd YOURPROJECTNAME
+cd <your-project-name>
 ```
 
 If you *don't* have Meteor install, install it
@@ -52,23 +48,27 @@ Debug tests
 JASMINE_BROWSER=PhantomJS DEBUG=1 MOCHA_DEBUG=1 JASMINE_DEBUG=1 VELOCITY_DEBUG=1 VELOCITY_DEBUG_MIRROR=1 meteor
 ```
 
-# Included Packages
+# Noteworthy included packages
 
-- [kadira:flow-router](https://atmospherejs.com/kadira/flow-router) - Routing at its finest
-- [kadira:blaze-layout](https://atmospherejs.com/kadira/blaze-layout) - Blaze rendering for Flow Router
 - [coffeescript](https://atmospherejs.com/meteor/coffeescript) - Yum
-- [materialize:materialize](https://atmospherejs.com/materialize/materialize) - Get Materilized
+- [erasaur:meteor-lodash](https://atmospherejs.com/erasaur/meteor-lodash) - Delicious functional helpers
+- [kadira:blaze-layout](https://atmospherejs.com/kadira/blaze-layout) - Blaze rendering for Flow Router
+- [kadira:flow-router](https://atmospherejs.com/kadira/flow-router) - Routing at its finest
+- [accounts-password](https://atmospherejs.com/meteor/accounts-password) - Basic accounts system with password support
+- [arillo:flow-router-helpers](https://atmospherejs.com/arillo/flow-router-helpers) - Flow Router helpers
+- [useraccounts:flow-routing](https://atmospherejs.com/useraccounts/flow-routing) - Flow router tools for user accounts
+- [materialize:materialize](https://atmospherejs.com/materialize/materialize) - Get Materialized
+- [modweb:materialize-connection-status](https://atmospherejs.com/modweb/materialize-connection-status)
 - [useraccounts:materilize](https://atmospherejs.com/useraccounts/materialize) - Beautiful and simple user account templates
 - [zimme:active-route](https://atmospherejs.com/zimme/active-route) - Simple template helpers to determine active routes
-- [arillo:flow-router-helpers](https://atmospherejs.com/fortawesome/fontawesome) - Flow Router helpers
-- [sanjo:jasmine](https://atmospherejs.com/sanjo/jasmine) - Jasmine tests
+- [sanjo:jasmine](https://atmospherejs.com/sanjo/jasmine) - Jasmine test
+- [aldeed:autoform](https://atmospherejs.com/aldeed/autoform)
+- [aldeed:collection2](https://atmospherejs.com/aldeed/collection2)
 
-# Recommended Packages
-
-- [aldeed:autoform](https://atmospherejs.com/aldeed/autoform) - Magic forms
-  - [aldeed:simple-schema](https://atmospherejs.com/aldeed/simple-schema) - Schemas for your collections
-  - [aldeed:collection2](https://atmospherejs.com/aldeed/collection2) - Automatically validate your collections
-- [percolate:synced-cron](https://atmospherejs.com/percolate/synced-cron) - Cron jobs
+_awesome *in-browser* development tools_
+- [babrahams:constellation](https://atmospherejs.com/babrahams/constellation)
+- [constellation:console](https://atmospherejs.com/constellation/console)
+- [constellation:schema](https://atmospherejs.com/constellation/schema)
 
 # Deploy your app
 
@@ -79,7 +79,7 @@ There are several options to deploy your app.
 You can use the free `meteor deploy` service (hosted by Meteor) or your can deploy to your own server.
 
 ```sh
-meteor deploy yourapp.meteor.com
+meteor deploy <yourapp>.meteor.com
 ```
 
 Or to your own domain using Meteor deploy by setting the `CNAME` of your domain to `origin.meteor.com`.
